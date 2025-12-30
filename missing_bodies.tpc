@@ -1,0 +1,398 @@
+\begindata
+
+FRAME_SVAROGLAB_TPC = 'SVAROGLAB_TPC'
+CENTER_SVAROGLAB_TPC = 0
+FRAME_SVAROGLAB_TPC_FAMILY = 'TWO-VECTOR'
+FRAME_SVAROGLAB_TPC_CLASS = 5
+FRAME_SVAROGLAB_TPC_CLASS_ID = 123456
+FRAME_SVAROGLAB_TPC_RELATIVE = 'J2000'
+FRAME_SVAROGLAB_TPC_DEF_STYLE = 'PARAMETERIZED'
+FRAME_SVAROGLAB_TPC_FAMILY_DEF = 'J2000'
+FRAME_SVAROGLAB_TPC_FAMILY_DIR = 'J2000'
+FRAME_SVAROGLAB_TPC_FAMILY_UNITS = 'DEGREES'
+
+\begintext
+
+This file contains physical constants (GM and radii) for celestial bodies
+that are missing from standard SPICE kernels. Data sources are indicated
+in comments for each body.
+
+All values are in SI units (kg, m, km³/s²) unless otherwise noted.
+GM values are gravitational parameters (km³/s²).
+Radii are in km.
+
+Data sources:
+- JPL Horizons: NASA Jet Propulsion Laboratory Horizons system
+- SBDB: NASA Small Body Database
+- Literature: Scientific publications and mission data
+- Estimated: Calculated from size estimates and typical densities
+
+\endtext
+
+\begindata
+
+\
+ Data for Elara (ID 507)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY507_GM     = ( 2.670000e-05 )
+BODY507_RADII  = ( 39.95  39.95  39.95 )
+
+\
+ Data for Pasiphae (ID 508)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY508_GM     = ( 1.020000e-06 )
+BODY508_RADII  = ( 28.9  28.9  28.9 )
+
+\
+ Data for Sinope (ID 509)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY509_GM     = ( 2.250000e-09 )
+BODY509_RADII  = ( 17.5  17.5  17.5 )
+
+\
+ Data for Lysithea (ID 510)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY510_GM     = ( 2.570000e-09 )
+BODY510_RADII  = ( 18.0  18.0  18.0 )
+
+\
+ Data for Carme (ID 511)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY511_GM     = ( 5.120000e-09 )
+BODY511_RADII  = ( 23.0  23.0  23.0 )
+
+\
+ Data for Ananke (ID 512)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY512_GM     = ( 1.450000e-09 )
+BODY512_RADII  = ( 14.0  14.0  14.0 )
+
+\
+ Data for Leda (ID 513)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY513_GM     = ( 4.190000e-10 )
+BODY513_RADII  = ( 10.0  10.0  10.0 )
+
+\
+ Data for Callirrhoe (ID 517)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY517_GM     = ( 3.350000e-11 )
+BODY517_RADII  = ( 4.3  4.3  4.3 )
+
+\
+ Data for Themisto (ID 518)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY518_GM     = ( 2.700000e-11 )
+BODY518_RADII  = ( 4.0  4.0  4.0 )
+
+\
+ Data for Megaclite (ID 519)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY519_GM     = ( 8.280000e-12 )
+BODY519_RADII  = ( 2.7  2.7  2.7 )
+
+\
+ Data for Taygete (ID 520)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY520_GM     = ( 6.550000e-12 )
+BODY520_RADII  = ( 2.5  2.5  2.5 )
+
+\
+ Data for Chaldene (ID 521)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY521_GM     = ( 2.880000e-12 )
+BODY521_RADII  = ( 1.9  1.9  1.9 )
+
+\
+ Data for Harpalyke (ID 522)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY522_GM     = ( 3.890000e-12 )
+BODY522_RADII  = ( 2.1  2.1  2.1 )
+
+\
+ Data for Kalyke (ID 523)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY523_GM     = ( 7.410000e-12 )
+BODY523_RADII  = ( 2.6  2.6  2.6 )
+
+\
+ Data for Iocaste (ID 524)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY524_GM     = ( 7.410000e-12 )
+BODY524_RADII  = ( 2.6  2.6  2.6 )
+
+\
+ Data for Erinome (ID 525)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY525_GM     = ( 1.720000e-12 )
+BODY525_RADII  = ( 1.6  1.6  1.6 )
+
+\
+ Data for Isonoe (ID 526)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY526_GM     = ( 2.880000e-12 )
+BODY526_RADII  = ( 1.9  1.9  1.9 )
+
+\
+ Data for Praxidike (ID 527)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY527_GM     = ( 1.650000e-11 )
+BODY527_RADII  = ( 3.4  3.4  3.4 )
+
+\
+ Data for Autonoe (ID 528)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY528_GM     = ( 3.360000e-12 )
+BODY528_RADII  = ( 2.0  2.0  2.0 )
+
+\
+ Data for Thyone (ID 529)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY529_GM     = ( 3.360000e-12 )
+BODY529_RADII  = ( 2.0  2.0  2.0 )
+
+\
+ Data for Hermippe (ID 530)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY530_GM     = ( 3.360000e-12 )
+BODY530_RADII  = ( 2.0  2.0  2.0 )
+
+\
+ Data for Aitne (ID 531)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY531_GM     = ( 1.420000e-12 )
+BODY531_RADII  = ( 1.5  1.5  1.5 )
+
+\
+ Data for Eurydome (ID 532)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY532_GM     = ( 1.420000e-12 )
+BODY532_RADII  = ( 1.5  1.5  1.5 )
+
+\
+ Data for Euanthe (ID 533)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY533_GM     = ( 1.720000e-12 )
+BODY533_RADII  = ( 1.6  1.6  1.6 )
+
+\
+ Data for Euporie (ID 534)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY534_GM     = ( 4.190000e-13 )
+BODY534_RADII  = ( 1.0  1.0  1.0 )
+
+\
+ Data for Orthosie (ID 535)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY535_GM     = ( 4.190000e-13 )
+BODY535_RADII  = ( 1.0  1.0  1.0 )
+
+\
+ Data for Sponde (ID 536)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY536_GM     = ( 4.190000e-13 )
+BODY536_RADII  = ( 1.0  1.0  1.0 )
+
+\
+ Data for Kale (ID 537)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY537_GM     = ( 4.190000e-13 )
+BODY537_RADII  = ( 1.0  1.0  1.0 )
+
+\
+ Data for Pasithee (ID 538)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY538_GM     = ( 4.190000e-13 )
+BODY538_RADII  = ( 1.0  1.0  1.0 )
+
+\
+ Data for Hegemone (ID 539)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY539_GM     = ( 1.420000e-12 )
+BODY539_RADII  = ( 1.5  1.5  1.5 )
+
+\
+ Data for Mneme (ID 540)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY540_GM     = ( 4.190000e-13 )
+BODY540_RADII  = ( 1.0  1.0  1.0 )
+
+\
+ Data for Aoede (ID 541)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY541_GM     = ( 3.360000e-12 )
+BODY541_RADII  = ( 2.0  2.0  2.0 )
+
+\
+ Data for Thelxinoe (ID 542)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY542_GM     = ( 4.190000e-13 )
+BODY542_RADII  = ( 1.0  1.0  1.0 )
+
+\
+ Data for Arche (ID 543)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY543_GM     = ( 1.420000e-12 )
+BODY543_RADII  = ( 1.5  1.5  1.5 )
+
+\
+ Data for Kallichore (ID 544)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY544_GM     = ( 4.190000e-13 )
+BODY544_RADII  = ( 1.0  1.0  1.0 )
+
+\
+ Data for Helike (ID 545)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY545_GM     = ( 3.360000e-12 )
+BODY545_RADII  = ( 2.0  2.0  2.0 )
+
+\
+ Data for Carpo (ID 546)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY546_GM     = ( 1.420000e-12 )
+BODY546_RADII  = ( 1.5  1.5  1.5 )
+
+\
+ Data for Eukelade (ID 547)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY547_GM     = ( 3.360000e-12 )
+BODY547_RADII  = ( 2.0  2.0  2.0 )
+
+\
+ Data for Cyllene (ID 548)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY548_GM     = ( 4.190000e-13 )
+BODY548_RADII  = ( 1.0  1.0  1.0 )
+
+\
+ Data for Kore (ID 549)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY549_GM     = ( 4.190000e-13 )
+BODY549_RADII  = ( 1.0  1.0  1.0 )
+
+\
+ Data for Herse (ID 550)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY550_GM     = ( 4.190000e-13 )
+BODY550_RADII  = ( 1.0  1.0  1.0 )
+
+\
+ Data for Dia (ID 553)
+\ Source: NEOWISE thermal modeling (Grav et al. 2015)
+BODY553_GM     = ( 3.360000e-12 )
+BODY553_RADII  = ( 2.0  2.0  2.0 )
+
+\
+ Data for Telesto (ID 613)
+\ Source: JPL Horizons estimates
+BODY613_GM     = ( 1.352000e-14 )
+BODY613_RADII  = ( 12.0  12.0  12.0 )
+
+\
+ Data for Calypso (ID 614)
+\ Source: JPL Horizons estimates
+BODY614_GM     = ( 1.352000e-14 )
+BODY614_RADII  = ( 12.0  12.0  12.0 )
+
+\
+ Data for Pan (ID 618)
+\ Source: Cassini mission data
+BODY618_GM     = ( 1.959000e-15 )
+BODY618_RADII  = ( 14.0  14.0  14.0 )
+
+\
+ Data for Daphnis (ID 635)
+\ Source: Cassini mission data
+BODY635_GM     = ( 3.000000e-17 )
+BODY635_RADII  = ( 3.0  3.0  3.0 )
+
+\
+ Data for Aegaeon (ID 653)
+\ Source: Cassini mission data
+BODY653_GM     = ( 1.000000e-17 )
+BODY653_RADII  = ( 3.0  3.0  3.0 )
+
+\
+ Data for Nereid (ID 802)
+\ Source: Voyager 2 observations
+BODY802_GM     = ( 7.200000e-12 )
+BODY802_RADII  = ( 170.0  170.0  170.0 )
+
+\
+ Data for Pallas (ID 2000002)
+\ Source: SBDB/HST observations
+BODY2000002_GM     = ( 9.830000e-10 )
+BODY2000002_RADII  = ( 256.0  256.0  256.0 )
+
+\
+ Data for Lutetia (ID 2000021)
+\ Source: Rosetta mission
+BODY2000021_GM     = ( 1.700000e-11 )
+BODY2000021_RADII  = ( 50.0  50.0  50.0 )
+
+\
+ Data for Kleopatra (ID 2000216)
+\ Source: Radar observations
+BODY2000216_GM     = ( 2.100000e-10 )
+BODY2000216_RADII  = ( 67.0  67.0  67.0 )
+
+\
+ Data for Mathilde (ID 2000253)
+\ Source: NEAR Shoemaker mission
+BODY2000253_GM     = ( 1.300000e-12 )
+BODY2000253_RADII  = ( 26.5  26.5  26.5 )
+
+\
+ Data for Steins (ID 2002867)
+\ Source: Rosetta mission
+BODY2002867_GM     = ( 2.100000e-14 )
+BODY2002867_RADII  = ( 2.7  2.7  2.7 )
+
+\
+ Data for Toutatis (ID 2004179)
+\ Source: Chang'e 2 mission
+BODY2004179_GM     = ( 1.900000e-14 )
+BODY2004179_RADII  = ( 2.4  2.4  2.4 )
+
+\
+ Data for Braille (ID 2009969)
+\ Source: Radar observations (Oberst et al. 2001)
+BODY2009969_GM     = ( 9.010000e-10 )
+BODY2009969_RADII  = ( 1.05  1.05  1.05 )
+
+\
+ Data for Itokawa (ID 2025143)
+\ Source: Hayabusa mission
+BODY2025143_GM     = ( 1.100000e-16 )
+BODY2025143_RADII  = ( 0.2  0.2  0.2 )
+
+\
+ Data for Bennu (ID 2101955)
+\ Source: OSIRIS-REx mission
+BODY2101955_GM     = ( 4.900000e-15 )
+BODY2101955_RADII  = ( 0.2  0.2  0.2 )
+
+\
+ Data for Ryugu (ID 2162173)
+\ Source: Hayabusa2 mission
+BODY2162173_GM     = ( 1.200000e-14 )
+BODY2162173_RADII  = ( 0.4  0.4  0.4 )
+
+\
+ Data for Ida (ID 2431010)
+\ Source: Galileo mission
+BODY2431010_GM     = ( 1.100000e-12 )
+BODY2431010_RADII  = ( 15.7  15.7  15.7 )
+
+\
+ Data for Dactyl (ID 2431011)
+\ Source: Galileo mission (same as Ida)
+BODY2431011_GM     = ( 1.000000e-16 )
+BODY2431011_RADII  = ( 0.7  0.7  0.7 )
+
+\
+ Data for Arrokoth (ID 2486958)
+\ Source: New Horizons mission
+BODY2486958_GM     = ( 8.300000e-16 )
+BODY2486958_RADII  = ( 10.0  10.0  10.0 )
